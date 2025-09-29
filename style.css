@@ -8,53 +8,66 @@
 
 body {
   font-family: 'VCR OSD Mono', monospace !important;
+  font-size: 16px;
   line-height: 1.5;
   max-width: 700px;
   margin: 2rem auto;
   padding: 0 1rem;
-  color: #111;
+  color: #000;
   background: #fff;
 }
 
+/* Header */
 header {
   margin-bottom: 2rem;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1rem;   /* keep it small like in screenshot */
+  font-weight: normal;
 }
 
 header p {
-  margin: 0.25rem 0 0;
+  margin: 0.2rem 0 0;
   font-size: 1rem;
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
+/* Section titles */
 h2 {
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #222;
-  padding-bottom: 0.25rem;
+  margin: 2rem 0 1rem;
+  font-size: 1rem;
+  font-weight: normal; /* no bold */
+  text-transform: uppercase;
+  border: none; /* remove underline border */
+  padding: 0;
 }
 
+/* Entries */
 .entry {
   margin-bottom: 1.5rem;
 }
 
 .entry p {
   margin: 0;
-  white-space: pre-line; /* preserve line breaks */
   font-size: 1rem;
+  white-space: pre-line; /* preserve <br> line breaks */
 }
 
+/* Titles */
+.entry .title, 
+.entry strong {
+  text-decoration: underline;
+  font-weight: normal; /* remove bold weight for more authentic typewriter feel */
+}
+
+/* Italics for notes */
+em {
+  font-style: italic;
+}
+
+/* Links */
 a {
   color: inherit;
-  text-decoration: underline;
-
+  text-decoration: none; /* plain email, no underline */
 }
-
-
-
