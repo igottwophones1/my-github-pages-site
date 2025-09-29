@@ -8,13 +8,12 @@
 
 body {
   font-family: 'VCR OSD Mono', monospace !important;
-  font-size: 20px;    /* bigger text */
-  line-height: 1.4;
-  margin: 2rem 1rem;
-  padding: 0;
+  font-size: 18px;          /* bigger text */
+  line-height: 1.5;
+  margin: 2rem 0;           /* flush left */
+  padding: 0 1rem;
   color: #000;
   background: #fff;
-  max-width: none;
 }
 
 /* Header */
@@ -33,7 +32,7 @@ header p {
   font-size: 1rem;
 }
 
-/* Section titles (flush left) */
+/* Section titles */
 h2 {
   margin: 1.5rem 0 0.75rem;
   font-size: 1rem;
@@ -41,33 +40,33 @@ h2 {
   text-transform: uppercase;
   border: none;
   padding: 0;
-  padding-left: 0;   /* make sure headers hug left edge */
 }
 
-/* Entries (indented) */
+/* Entries */
 .entry {
   margin-bottom: 1rem;
-  padding-left: 3rem;  /* bigger indent */
 }
 
-.entry p {
-  margin: 0;
-  font-size: 1rem;
-  white-space: pre-line;
-}
-
-/* Titles inline with role */
+/* Title line (flush left) */
 .entry strong {
   text-decoration: underline;
   font-weight: normal;
 }
 
-/* Italics */
-em {
+/* First indent: director/production */
+.entry .details {
+  display: block;
+  padding-left: 2rem;
+}
+
+/* Second indent: status notes */
+.entry .status {
+  display: block;
+  padding-left: 4rem;
   font-style: italic;
 }
 
-/* Links — always hidden, no hover/focus styling */
+/* Links — always hidden */
 a,
 a:hover,
 a:focus {
