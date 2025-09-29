@@ -8,10 +8,10 @@
 
 body {
   font-family: 'VCR OSD Mono', monospace !important;
-  font-size: 18px;          /* bigger text */
-  line-height: 1.5;
-  margin: 2rem 0;           /* flush left */
-  padding: 0 1rem;
+  font-size: 20px;        /* bigger text */
+  line-height: 1.35;      /* tighter spacing */
+  margin: 2rem 0;
+  padding-left: 1rem;     /* small left margin */
   color: #000;
   background: #fff;
 }
@@ -38,35 +38,31 @@ h2 {
   font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
-  border: none;
-  padding: 0;
 }
 
 /* Entries */
 .entry {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
-/* Title line (flush left) */
 .entry strong {
   text-decoration: underline;
   font-weight: normal;
 }
 
-/* First indent: director/production */
+/* Indents */
 .entry .details {
   display: block;
   padding-left: 2rem;
 }
 
-/* Second indent: status notes */
 .entry .status {
   display: block;
   padding-left: 4rem;
   font-style: italic;
 }
 
-/* Links — always hidden */
+/* Links */
 a,
 a:hover,
 a:focus {
