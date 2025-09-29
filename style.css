@@ -8,18 +8,18 @@
 
 body {
   font-family: 'VCR OSD Mono', monospace !important;
-  font-size: 16px;
-  line-height: 1.4;   /* tighter line height */
-  margin: 2rem 1rem;  /* top/bottom = 2rem, left/right = 1rem */
+  font-size: 18px;    /* bigger text */
+  line-height: 1.4;
+  margin: 2rem 1rem;
   padding: 0;
   color: #000;
   background: #fff;
-  max-width: none;    /* remove centered container */
+  max-width: none;
 }
 
 /* Header */
 header {
-  margin-bottom: 1.25rem;  /* smaller gap under name/email */
+  margin-bottom: 1.25rem;
 }
 
 header h1 {
@@ -35,7 +35,7 @@ header p {
 
 /* Section titles */
 h2 {
-  margin: 1.5rem 0 0.75rem; /* less top/bottom margin */
+  margin: 1.5rem 0 0.75rem;
   font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
@@ -45,7 +45,8 @@ h2 {
 
 /* Entries */
 .entry {
-  margin-bottom: 1rem;  /* less spacing between films */
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;  /* indent from left */
 }
 
 .entry p {
