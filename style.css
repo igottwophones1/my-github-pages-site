@@ -65,7 +65,7 @@ em {
   font-style: italic;
 }
 
-/* Links — plain, no hover/focus styles */
+/* Links — always hidden, no hover/focus styling */
 a,
 a:hover,
 a:focus {
