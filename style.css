@@ -9,7 +9,7 @@
 body {
   font-family: 'VCR OSD Mono', monospace !important;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.4;   /* tighter line height */
   max-width: 700px;
   margin: 2rem auto;
   padding: 0 1rem;
@@ -19,49 +19,48 @@ body {
 
 /* Header */
 header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;  /* smaller gap under name/email */
 }
 
 header h1 {
   margin: 0;
-  font-size: 1rem;   /* keep it small like in screenshot */
+  font-size: 1rem;
   font-weight: normal;
 }
 
 header p {
-  margin: 0.2rem 0 0;
+  margin: 0.1rem 0 0;
   font-size: 1rem;
 }
 
 /* Section titles */
 h2 {
-  margin: 2rem 0 1rem;
+  margin: 1.5rem 0 0.75rem; /* less top/bottom margin */
   font-size: 1rem;
-  font-weight: normal; /* no bold */
+  font-weight: normal;
   text-transform: uppercase;
-  border: none; /* remove underline border */
+  border: none;
   padding: 0;
 }
 
 /* Entries */
 .entry {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;  /* less spacing between films */
 }
 
 .entry p {
   margin: 0;
   font-size: 1rem;
-  white-space: pre-line; /* preserve <br> line breaks */
+  white-space: pre-line;
 }
 
-/* Titles */
-.entry .title, 
+/* Titles inline with role */
 .entry strong {
   text-decoration: underline;
-  font-weight: normal; /* remove bold weight for more authentic typewriter feel */
+  font-weight: normal;
 }
 
-/* Italics for notes */
+/* Italics */
 em {
   font-style: italic;
 }
@@ -69,5 +68,5 @@ em {
 /* Links */
 a {
   color: inherit;
-  text-decoration: none; /* plain email, no underline */
+  text-decoration: none;
 }
