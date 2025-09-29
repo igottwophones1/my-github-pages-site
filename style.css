@@ -6,7 +6,55 @@
   font-style: normal;
 }
 
-.vcr-text {
+body {
   font-family: 'VCR OSD Mono', monospace;
-  font-size: 8px;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #111;
+  background: #fff;
 }
+
+header {
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.25rem 0 0;
+  font-size: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.25rem;
+}
+
+.entry {
+  margin-bottom: 1.5rem;
+}
+
+.entry p {
+  margin: 0;
+  white-space: pre-line; /* preserve line breaks */
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+}
+
+
+
