@@ -1,71 +1,81 @@
-@font-face {
-  font-family: 'VCR OSD Mono';
-  src: url('fonts/VCROSDMono.woff2') format('woff2'),
-       url('fonts/VCROSDMono.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paul Cellini</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <header>
+    <h1>Paul Cellini</h1>
+    <p><a href="mailto:paul@cellini.org">paul@cellini.org</a></p>
+  </header>
 
-body {
-  font-family: 'VCR OSD Mono', monospace !important;
-  font-size: 20px;        /* bigger text */
-  line-height: 1.35;      /* tighter spacing */
-  margin: 2rem 0;
-  padding-left: 1rem;     /* small left margin */
-  color: #000;
-  background: #fff;
-}
+  <section>
+    <h2>SHORTS</h2>
 
-/* Header */
-header {
-  margin-bottom: 1.25rem;
-}
+    <div class="entry">
+      <p><strong>SUPERLATIVE DAY (2025)</strong> - Editor/DIT</p>
+      <span class="details">dir. Harleigh Shaw</span>
+      <span class="details">Production Company GUMMY FILMS</span>
+      <span class="status">in post</span>
+    </div>
 
-header h1 {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: normal;
-}
+    <div class="entry">
+      <p><strong>DINNER PARTY (2025)</strong> - Editor</p>
+      <span class="details">dir. Norah Gross</span>
+      <span class="status">screener available</span>
+    </div>
 
-header p {
-  margin: 0.1rem 0 0;
-  font-size: 1rem;
-}
+    <div class="entry">
+      <p><strong>GINO! FOREVER (2025)</strong> - Editor</p>
+      <span class="details">dir. Sam Levy</span>
+    </div>
 
-/* Section titles */
-h2 {
-  margin: 1.5rem 0 0.75rem;
-  font-size: 1rem;
-  font-weight: normal;
-  text-transform: uppercase;
-}
+    <div class="entry">
+      <p><strong>BEING ABLE TO BE SOMEWHERE THAT DOESN’T EXIST (2025)</strong> - Co-Dir/Edit</p>
+      <span class="details">co-dir. Lily Gudas</span>
+    </div>
 
-/* Entries */
-.entry {
-  margin-bottom: 1.25rem;
-}
+    <div class="entry">
+      <p><strong>TRYING SOMETHING NEW (2024)</strong> - Co-Dir</p>
+      <span class="details">co-dir. Nathan Jacobson</span>
+    </div>
 
-.entry strong {
-  text-decoration: underline;
-  font-weight: normal;
-}
+    <div class="entry">
+      <p><strong>The Same Sky (2023)</strong> - Dir/Cam/Edit</p>
+    </div>
+  </section>
 
-/* Indents */
-.entry .details {
-  display: block;
-  padding-left: 2rem;
-}
+  <section>
+    <h2>MUSIC VIDEOS</h2>
 
-.entry .status {
-  display: block;
-  padding-left: 4rem;
-  font-style: italic;
-}
+    <div class="entry">
+      <p><strong>JOHN MAUS “DISAPPEARS” (2025)</strong> - AE/DIT</p>
+      <span class="details">dir. Blake James Reid</span>
+      <span class="details">Production Company GUMMY FILMS</span>
+    </div>
 
-/* Links */
-a,
-a:hover,
-a:focus {
-  color: inherit;
-  text-decoration: none;
-}
+    <div class="entry">
+      <p><strong>LESLIE “IT WAS SO EASY” (2025)</strong> - Dir/Cam/Edit</p>
+    </div>
+
+    <div class="entry">
+      <p><strong>LESLIE “BALLROOM” (2025)</strong> - Dir/Cam/Edit</p>
+    </div>
+
+    <div class="entry">
+      <p><strong>ADDIE ALAIMO “PATHS” (2025)</strong> - Dir/Cam/Edit</p>
+    </div>
+
+    <div class="entry">
+      <p><strong>LESLIE “ASSEMBLY” (2024)</strong> - Dir/Cam/Edit</p>
+    </div>
+
+    <div class="entry">
+      <p><strong>OSCAR WARNERSMITH “IN CLOSING” (2024)</strong> - Dir/Cam/Edit</p>
+    </div>
+  </section>
+</body>
+</html>
